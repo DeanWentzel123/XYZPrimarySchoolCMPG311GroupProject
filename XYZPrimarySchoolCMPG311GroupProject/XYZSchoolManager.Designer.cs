@@ -47,6 +47,7 @@ namespace XYZPrimarySchoolCMPG311GroupProject
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.pnlfrmMainmenu.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -185,6 +186,7 @@ namespace XYZPrimarySchoolCMPG311GroupProject
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.button7);
@@ -297,10 +299,21 @@ namespace XYZPrimarySchoolCMPG311GroupProject
             this.panel3.Size = new System.Drawing.Size(585, 405);
             this.panel3.TabIndex = 11;
             // 
+            // textBox1
+            // 
+            this.textBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.textBox1.BackColor = System.Drawing.Color.White;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Location = new System.Drawing.Point(669, 12);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(176, 19);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "Search for name";
+            // 
             // frmXYZSchoolManager
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(850, 500);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnlfrmMainmenu);
@@ -345,6 +358,7 @@ namespace XYZPrimarySchoolCMPG311GroupProject
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
