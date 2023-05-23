@@ -29,10 +29,10 @@ namespace XYZPrimarySchoolCMPG311GroupProject
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlfrmMainmenu = new System.Windows.Forms.Panel();
             this.pbMainmenuLogo = new System.Windows.Forms.PictureBox();
             this.btnMainmenuSubjects = new System.Windows.Forms.Button();
@@ -452,32 +452,54 @@ namespace XYZPrimarySchoolCMPG311GroupProject
             this.pbEditstudentclassDFivePSixOutline = new System.Windows.Forms.PictureBox();
             this.pbEditstudentclassDFiveBackground = new System.Windows.Forms.PictureBox();
             this.btnEditstudentclassSave = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.pnlfrmStaff = new System.Windows.Forms.Panel();
+            this.btnStaffBack = new System.Windows.Forms.Button();
+            this.lblStaffTitle = new System.Windows.Forms.Label();
+            this.btnStaffSearch = new System.Windows.Forms.Button();
+            this.txtStaffSearch = new System.Windows.Forms.TextBox();
+            this.pbStaffHeader = new System.Windows.Forms.PictureBox();
+            this.dgbStaffList = new System.Windows.Forms.DataGridView();
+            this.pnlStaffTeachersFilter = new System.Windows.Forms.Panel();
+            this.lblStaffTeachersFilters = new System.Windows.Forms.Label();
+            this.lblStaffTeachersGrade = new System.Windows.Forms.Label();
+            this.cbxStaffTeachersGrade = new System.Windows.Forms.ComboBox();
+            this.lblStaffTeachersQualifications = new System.Windows.Forms.Label();
+            this.cbxStaffTeachersQualifications = new System.Windows.Forms.ComboBox();
+            this.lblStaffTeachersAbsent = new System.Windows.Forms.Label();
+            this.cbStaffTeachersAbsent = new System.Windows.Forms.CheckBox();
+            this.lblStaffTeachersSort = new System.Windows.Forms.Label();
+            this.lblStaffTeachersOrderBy = new System.Windows.Forms.Label();
+            this.cbxStaffTeachersOrderBy = new System.Windows.Forms.ComboBox();
+            this.lblStaffTeachersOrderOrder = new System.Windows.Forms.Label();
+            this.cbxStaffTeachersOrderOrder = new System.Windows.Forms.ComboBox();
+            this.pbStaffTeachersBackground = new System.Windows.Forms.PictureBox();
+            this.btnStaffAdd = new System.Windows.Forms.Button();
+            this.btnStaffMore = new System.Windows.Forms.Button();
+            this.btnStaffRemove = new System.Windows.Forms.Button();
+            this.btnStaffOther = new System.Windows.Forms.Button();
+            this.btnStaffTeachers = new System.Windows.Forms.Button();
+            this.pbStaffTeachersGradeOutline = new System.Windows.Forms.PictureBox();
+            this.pbStaffTeachersQualificationsOutline = new System.Windows.Forms.PictureBox();
+            this.lblStaffTeachersClass = new System.Windows.Forms.Label();
+            this.pbStaffTeachersClassOutline = new System.Windows.Forms.PictureBox();
+            this.cbxStaffTeachersClass = new System.Windows.Forms.ComboBox();
+            this.pbStaffTeachersOrderByOutline = new System.Windows.Forms.PictureBox();
+            this.pbStaffTeachersOrderOrderOutline = new System.Windows.Forms.PictureBox();
+            this.pnlStaffOtherFilter = new System.Windows.Forms.Panel();
+            this.lblStaffOtherFilter = new System.Windows.Forms.Label();
+            this.lblStaffOtherType = new System.Windows.Forms.Label();
+            this.cbxStaffOtherType = new System.Windows.Forms.ComboBox();
+            this.pbStaffOtherTypeOutline = new System.Windows.Forms.PictureBox();
+            this.lblStaffOtherAbsent = new System.Windows.Forms.Label();
+            this.cbStaffOtherAbsent = new System.Windows.Forms.CheckBox();
+            this.lblStaffOtherSort = new System.Windows.Forms.Label();
+            this.lblStaffOtherOrderBy = new System.Windows.Forms.Label();
+            this.cbxStaffOtherOrderBy = new System.Windows.Forms.ComboBox();
+            this.pbStaffOtherOrderByOutline = new System.Windows.Forms.PictureBox();
+            this.lblStaffOtherOrderOrder = new System.Windows.Forms.Label();
+            this.cbxStaffOtherOrderOrder = new System.Windows.Forms.ComboBox();
+            this.pbStaffOtherOrderOrderOutline = new System.Windows.Forms.PictureBox();
+            this.pbStaffOtherBackground = new System.Windows.Forms.PictureBox();
             this.pnlfrmMainmenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbMainmenuLogo)).BeginInit();
             this.pnlfrmStudents.SuspendLayout();
@@ -625,11 +647,21 @@ namespace XYZPrimarySchoolCMPG311GroupProject
             ((System.ComponentModel.ISupportInitialize)(this.pbEditstudentclassDFivePFiveOutline)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbEditstudentclassDFivePSixOutline)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbEditstudentclassDFiveBackground)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pnlfrmStaff.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffHeader)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgbStaffList)).BeginInit();
+            this.pnlStaffTeachersFilter.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffTeachersBackground)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffTeachersGradeOutline)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffTeachersQualificationsOutline)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffTeachersClassOutline)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffTeachersOrderByOutline)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffTeachersOrderOrderOutline)).BeginInit();
+            this.pnlStaffOtherFilter.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffOtherTypeOutline)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffOtherOrderByOutline)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffOtherOrderOrderOutline)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffOtherBackground)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlfrmMainmenu
@@ -649,6 +681,7 @@ namespace XYZPrimarySchoolCMPG311GroupProject
             // 
             // pbMainmenuLogo
             // 
+            this.pbMainmenuLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pbMainmenuLogo.Image = global::XYZPrimarySchoolCMPG311GroupProject.Properties.Resources.Logo;
             this.pbMainmenuLogo.Location = new System.Drawing.Point(275, 30);
             this.pbMainmenuLogo.Name = "pbMainmenuLogo";
@@ -724,6 +757,7 @@ namespace XYZPrimarySchoolCMPG311GroupProject
             this.btnMainmenuStaff.TabStop = false;
             this.btnMainmenuStaff.Text = "Staff";
             this.btnMainmenuStaff.UseVisualStyleBackColor = false;
+            this.btnMainmenuStaff.Click += new System.EventHandler(this.btnMainmenuStaff_Click);
             // 
             // btnMainmenuEvents
             // 
@@ -858,24 +892,24 @@ namespace XYZPrimarySchoolCMPG311GroupProject
             this.dgvStudentsList.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
             this.dgvStudentsList.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvStudentsList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvStudentsList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
+            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvStudentsList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle25;
             this.dgvStudentsList.ColumnHeadersHeight = 31;
             this.dgvStudentsList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvStudentsList.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvStudentsList.DefaultCellStyle = dataGridViewCellStyle26;
             this.dgvStudentsList.EnableHeadersVisualStyles = false;
             this.dgvStudentsList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(222)))), ((int)(((byte)(228)))));
             this.dgvStudentsList.Location = new System.Drawing.Point(5, 55);
@@ -5832,180 +5866,189 @@ namespace XYZPrimarySchoolCMPG311GroupProject
             this.btnEditstudentclassSave.Text = "Save";
             this.btnEditstudentclassSave.UseVisualStyleBackColor = false;
             // 
-            // panel1
+            // pnlfrmStaff
             // 
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(850, 500);
-            this.panel1.TabIndex = 6;
-            this.panel1.Visible = false;
+            this.pnlfrmStaff.Controls.Add(this.btnStaffBack);
+            this.pnlfrmStaff.Controls.Add(this.lblStaffTitle);
+            this.pnlfrmStaff.Controls.Add(this.btnStaffSearch);
+            this.pnlfrmStaff.Controls.Add(this.txtStaffSearch);
+            this.pnlfrmStaff.Controls.Add(this.pbStaffHeader);
+            this.pnlfrmStaff.Controls.Add(this.dgbStaffList);
+            this.pnlfrmStaff.Controls.Add(this.pnlStaffTeachersFilter);
+            this.pnlfrmStaff.Controls.Add(this.pnlStaffOtherFilter);
+            this.pnlfrmStaff.Controls.Add(this.btnStaffAdd);
+            this.pnlfrmStaff.Controls.Add(this.btnStaffMore);
+            this.pnlfrmStaff.Controls.Add(this.btnStaffRemove);
+            this.pnlfrmStaff.Controls.Add(this.btnStaffTeachers);
+            this.pnlfrmStaff.Controls.Add(this.btnStaffOther);
+            this.pnlfrmStaff.Location = new System.Drawing.Point(0, 0);
+            this.pnlfrmStaff.Name = "pnlfrmStaff";
+            this.pnlfrmStaff.Size = new System.Drawing.Size(850, 500);
+            this.pnlfrmStaff.TabIndex = 6;
+            this.pnlfrmStaff.Visible = false;
             // 
-            // button1
+            // btnStaffBack
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::XYZPrimarySchoolCMPG311GroupProject.Properties.Resources.arrowBack;
-            this.button1.Location = new System.Drawing.Point(5, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(40, 40);
-            this.button1.TabIndex = 0;
-            this.button1.TabStop = false;
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnStaffBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
+            this.btnStaffBack.FlatAppearance.BorderSize = 0;
+            this.btnStaffBack.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
+            this.btnStaffBack.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
+            this.btnStaffBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStaffBack.Image = global::XYZPrimarySchoolCMPG311GroupProject.Properties.Resources.arrowBack;
+            this.btnStaffBack.Location = new System.Drawing.Point(5, 5);
+            this.btnStaffBack.Name = "btnStaffBack";
+            this.btnStaffBack.Size = new System.Drawing.Size(40, 40);
+            this.btnStaffBack.TabIndex = 0;
+            this.btnStaffBack.TabStop = false;
+            this.btnStaffBack.UseVisualStyleBackColor = false;
+            this.btnStaffBack.Click += new System.EventHandler(this.btnStaffBack_Click);
             // 
-            // label1
+            // lblStaffTitle
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
-            this.label1.Font = new System.Drawing.Font("Cascadia Mono", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(50, 2);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 43);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Staff";
+            this.lblStaffTitle.AutoSize = true;
+            this.lblStaffTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
+            this.lblStaffTitle.Font = new System.Drawing.Font("Cascadia Mono", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStaffTitle.ForeColor = System.Drawing.Color.White;
+            this.lblStaffTitle.Location = new System.Drawing.Point(50, 2);
+            this.lblStaffTitle.Name = "lblStaffTitle";
+            this.lblStaffTitle.Size = new System.Drawing.Size(266, 43);
+            this.lblStaffTitle.TabIndex = 7;
+            this.lblStaffTitle.Text = "Staff Members";
             // 
-            // button2
+            // btnStaffSearch
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Image = global::XYZPrimarySchoolCMPG311GroupProject.Properties.Resources.searchIcon;
-            this.button2.Location = new System.Drawing.Point(638, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(26, 26);
-            this.button2.TabIndex = 0;
-            this.button2.TabStop = false;
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnStaffSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
+            this.btnStaffSearch.FlatAppearance.BorderSize = 0;
+            this.btnStaffSearch.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
+            this.btnStaffSearch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
+            this.btnStaffSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStaffSearch.Image = global::XYZPrimarySchoolCMPG311GroupProject.Properties.Resources.searchIcon;
+            this.btnStaffSearch.Location = new System.Drawing.Point(638, 12);
+            this.btnStaffSearch.Name = "btnStaffSearch";
+            this.btnStaffSearch.Size = new System.Drawing.Size(26, 26);
+            this.btnStaffSearch.TabIndex = 0;
+            this.btnStaffSearch.TabStop = false;
+            this.btnStaffSearch.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // txtStaffSearch
             // 
-            this.textBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
-            this.textBox1.Location = new System.Drawing.Point(669, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(176, 26);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Search...";
+            this.txtStaffSearch.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.txtStaffSearch.BackColor = System.Drawing.Color.White;
+            this.txtStaffSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
+            this.txtStaffSearch.Location = new System.Drawing.Point(669, 12);
+            this.txtStaffSearch.Name = "txtStaffSearch";
+            this.txtStaffSearch.Size = new System.Drawing.Size(176, 26);
+            this.txtStaffSearch.TabIndex = 1;
+            this.txtStaffSearch.Text = "Search...";
             // 
-            // pictureBox1
+            // pbStaffHeader
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(850, 50);
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
+            this.pbStaffHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
+            this.pbStaffHeader.Location = new System.Drawing.Point(0, 0);
+            this.pbStaffHeader.Name = "pbStaffHeader";
+            this.pbStaffHeader.Size = new System.Drawing.Size(850, 50);
+            this.pbStaffHeader.TabIndex = 8;
+            this.pbStaffHeader.TabStop = false;
             // 
-            // dataGridView1
+            // dgbStaffList
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AllowUserToResizeColumns = false;
-            this.dataGridView1.AllowUserToResizeRows = false;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
-            this.dataGridView1.ColumnHeadersHeight = 31;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle8;
-            this.dataGridView1.EnableHeadersVisualStyles = false;
-            this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(222)))), ((int)(((byte)(228)))));
-            this.dataGridView1.Location = new System.Drawing.Point(5, 55);
-            this.dataGridView1.MultiSelect = false;
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(710, 405);
-            this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.TabStop = false;
+            this.dgbStaffList.AllowUserToAddRows = false;
+            this.dgbStaffList.AllowUserToDeleteRows = false;
+            this.dgbStaffList.AllowUserToResizeColumns = false;
+            this.dgbStaffList.AllowUserToResizeRows = false;
+            this.dgbStaffList.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.dgbStaffList.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgbStaffList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgbStaffList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle27;
+            this.dgbStaffList.ColumnHeadersHeight = 31;
+            this.dgbStaffList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle28.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle28.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
+            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgbStaffList.DefaultCellStyle = dataGridViewCellStyle28;
+            this.dgbStaffList.EnableHeadersVisualStyles = false;
+            this.dgbStaffList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(222)))), ((int)(((byte)(228)))));
+            this.dgbStaffList.Location = new System.Drawing.Point(5, 55);
+            this.dgbStaffList.MultiSelect = false;
+            this.dgbStaffList.Name = "dgbStaffList";
+            this.dgbStaffList.ReadOnly = true;
+            this.dgbStaffList.RowHeadersVisible = false;
+            this.dgbStaffList.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.dgbStaffList.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dgbStaffList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgbStaffList.Size = new System.Drawing.Size(640, 405);
+            this.dgbStaffList.TabIndex = 0;
+            this.dgbStaffList.TabStop = false;
             // 
-            // panel2
+            // pnlStaffTeachersFilter
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(222)))), ((int)(((byte)(228)))));
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.comboBox1);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.comboBox2);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.checkBox1);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.checkBox2);
-            this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.comboBox3);
-            this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.comboBox4);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(720, 55);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(125, 405);
-            this.panel2.TabIndex = 16;
+            this.pnlStaffTeachersFilter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(222)))), ((int)(((byte)(228)))));
+            this.pnlStaffTeachersFilter.Controls.Add(this.lblStaffTeachersFilters);
+            this.pnlStaffTeachersFilter.Controls.Add(this.lblStaffTeachersGrade);
+            this.pnlStaffTeachersFilter.Controls.Add(this.cbxStaffTeachersGrade);
+            this.pnlStaffTeachersFilter.Controls.Add(this.pbStaffTeachersGradeOutline);
+            this.pnlStaffTeachersFilter.Controls.Add(this.lblStaffTeachersQualifications);
+            this.pnlStaffTeachersFilter.Controls.Add(this.cbxStaffTeachersQualifications);
+            this.pnlStaffTeachersFilter.Controls.Add(this.pbStaffTeachersQualificationsOutline);
+            this.pnlStaffTeachersFilter.Controls.Add(this.lblStaffTeachersClass);
+            this.pnlStaffTeachersFilter.Controls.Add(this.cbxStaffTeachersClass);
+            this.pnlStaffTeachersFilter.Controls.Add(this.pbStaffTeachersClassOutline);
+            this.pnlStaffTeachersFilter.Controls.Add(this.lblStaffTeachersAbsent);
+            this.pnlStaffTeachersFilter.Controls.Add(this.cbStaffTeachersAbsent);
+            this.pnlStaffTeachersFilter.Controls.Add(this.lblStaffTeachersSort);
+            this.pnlStaffTeachersFilter.Controls.Add(this.lblStaffTeachersOrderBy);
+            this.pnlStaffTeachersFilter.Controls.Add(this.cbxStaffTeachersOrderBy);
+            this.pnlStaffTeachersFilter.Controls.Add(this.pbStaffTeachersOrderByOutline);
+            this.pnlStaffTeachersFilter.Controls.Add(this.lblStaffTeachersOrderOrder);
+            this.pnlStaffTeachersFilter.Controls.Add(this.cbxStaffTeachersOrderOrder);
+            this.pnlStaffTeachersFilter.Controls.Add(this.pbStaffTeachersOrderOrderOutline);
+            this.pnlStaffTeachersFilter.Controls.Add(this.pbStaffTeachersBackground);
+            this.pnlStaffTeachersFilter.Location = new System.Drawing.Point(650, 55);
+            this.pnlStaffTeachersFilter.Name = "pnlStaffTeachersFilter";
+            this.pnlStaffTeachersFilter.Size = new System.Drawing.Size(195, 405);
+            this.pnlStaffTeachersFilter.TabIndex = 16;
             // 
-            // label2
+            // lblStaffTeachersFilters
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
-            this.label2.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(42)))), ((int)(((byte)(110)))));
-            this.label2.Location = new System.Drawing.Point(29, 11);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 23);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Filters:";
+            this.lblStaffTeachersFilters.AutoSize = true;
+            this.lblStaffTeachersFilters.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.lblStaffTeachersFilters.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStaffTeachersFilters.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(42)))), ((int)(((byte)(110)))));
+            this.lblStaffTeachersFilters.Location = new System.Drawing.Point(64, 11);
+            this.lblStaffTeachersFilters.Name = "lblStaffTeachersFilters";
+            this.lblStaffTeachersFilters.Size = new System.Drawing.Size(66, 23);
+            this.lblStaffTeachersFilters.TabIndex = 1;
+            this.lblStaffTeachersFilters.Text = "Filters:";
             // 
-            // label3
+            // lblStaffTeachersGrade
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
-            this.label3.Location = new System.Drawing.Point(4, 45);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 18);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Grade:";
+            this.lblStaffTeachersGrade.AutoSize = true;
+            this.lblStaffTeachersGrade.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.lblStaffTeachersGrade.Location = new System.Drawing.Point(4, 45);
+            this.lblStaffTeachersGrade.Name = "lblStaffTeachersGrade";
+            this.lblStaffTeachersGrade.Size = new System.Drawing.Size(49, 18);
+            this.lblStaffTeachersGrade.TabIndex = 3;
+            this.lblStaffTeachersGrade.Text = "Grade:";
             // 
-            // comboBox1
+            // cbxStaffTeachersGrade
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.White;
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbxStaffTeachersGrade.BackColor = System.Drawing.Color.White;
+            this.cbxStaffTeachersGrade.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxStaffTeachersGrade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbxStaffTeachersGrade.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
+            this.cbxStaffTeachersGrade.FormattingEnabled = true;
+            this.cbxStaffTeachersGrade.Items.AddRange(new object[] {
             "All",
             "1",
             "2",
@@ -6014,215 +6057,483 @@ namespace XYZPrimarySchoolCMPG311GroupProject
             "5",
             "6",
             "7"});
-            this.comboBox1.Location = new System.Drawing.Point(5, 65);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(115, 26);
-            this.comboBox1.TabIndex = 2;
+            this.cbxStaffTeachersGrade.Location = new System.Drawing.Point(6, 66);
+            this.cbxStaffTeachersGrade.Name = "cbxStaffTeachersGrade";
+            this.cbxStaffTeachersGrade.Size = new System.Drawing.Size(183, 26);
+            this.cbxStaffTeachersGrade.TabIndex = 2;
             // 
-            // label4
+            // lblStaffTeachersQualifications
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
-            this.label4.Location = new System.Drawing.Point(4, 100);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 18);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Subject:";
+            this.lblStaffTeachersQualifications.AutoSize = true;
+            this.lblStaffTeachersQualifications.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.lblStaffTeachersQualifications.Location = new System.Drawing.Point(4, 100);
+            this.lblStaffTeachersQualifications.Name = "lblStaffTeachersQualifications";
+            this.lblStaffTeachersQualifications.Size = new System.Drawing.Size(96, 18);
+            this.lblStaffTeachersQualifications.TabIndex = 5;
+            this.lblStaffTeachersQualifications.Text = "Qualifications:";
             // 
-            // comboBox2
+            // cbxStaffTeachersQualifications
             // 
-            this.comboBox2.BackColor = System.Drawing.Color.White;
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.Enabled = false;
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cbxStaffTeachersQualifications.BackColor = System.Drawing.Color.White;
+            this.cbxStaffTeachersQualifications.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxStaffTeachersQualifications.Enabled = false;
+            this.cbxStaffTeachersQualifications.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbxStaffTeachersQualifications.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
+            this.cbxStaffTeachersQualifications.FormattingEnabled = true;
+            this.cbxStaffTeachersQualifications.Items.AddRange(new object[] {
             "math",
             "asd",
             "dasd"});
-            this.comboBox2.Location = new System.Drawing.Point(5, 120);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(115, 26);
-            this.comboBox2.TabIndex = 3;
+            this.cbxStaffTeachersQualifications.Location = new System.Drawing.Point(6, 121);
+            this.cbxStaffTeachersQualifications.Name = "cbxStaffTeachersQualifications";
+            this.cbxStaffTeachersQualifications.Size = new System.Drawing.Size(183, 26);
+            this.cbxStaffTeachersQualifications.TabIndex = 3;
             // 
-            // label5
+            // lblStaffTeachersAbsent
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
-            this.label5.Location = new System.Drawing.Point(4, 155);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 18);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Absentee:";
+            this.lblStaffTeachersAbsent.AutoSize = true;
+            this.lblStaffTeachersAbsent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.lblStaffTeachersAbsent.Location = new System.Drawing.Point(4, 215);
+            this.lblStaffTeachersAbsent.Name = "lblStaffTeachersAbsent";
+            this.lblStaffTeachersAbsent.Size = new System.Drawing.Size(56, 18);
+            this.lblStaffTeachersAbsent.TabIndex = 8;
+            this.lblStaffTeachersAbsent.Text = "Absent:";
             // 
-            // checkBox1
+            // cbStaffTeachersAbsent
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
-            this.checkBox1.Location = new System.Drawing.Point(106, 157);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 4;
-            this.checkBox1.UseVisualStyleBackColor = false;
+            this.cbStaffTeachersAbsent.AutoSize = true;
+            this.cbStaffTeachersAbsent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.cbStaffTeachersAbsent.Location = new System.Drawing.Point(176, 217);
+            this.cbStaffTeachersAbsent.Name = "cbStaffTeachersAbsent";
+            this.cbStaffTeachersAbsent.Size = new System.Drawing.Size(15, 14);
+            this.cbStaffTeachersAbsent.TabIndex = 5;
+            this.cbStaffTeachersAbsent.UseVisualStyleBackColor = false;
             // 
-            // label6
+            // lblStaffTeachersSort
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
-            this.label6.Location = new System.Drawing.Point(4, 185);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 18);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Textbooks:";
+            this.lblStaffTeachersSort.AutoSize = true;
+            this.lblStaffTeachersSort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.lblStaffTeachersSort.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStaffTeachersSort.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(42)))), ((int)(((byte)(110)))));
+            this.lblStaffTeachersSort.Location = new System.Drawing.Point(73, 246);
+            this.lblStaffTeachersSort.Name = "lblStaffTeachersSort";
+            this.lblStaffTeachersSort.Size = new System.Drawing.Size(48, 23);
+            this.lblStaffTeachersSort.TabIndex = 10;
+            this.lblStaffTeachersSort.Text = "Sort:";
             // 
-            // checkBox2
+            // lblStaffTeachersOrderBy
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
-            this.checkBox2.Location = new System.Drawing.Point(106, 187);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
-            this.checkBox2.TabIndex = 5;
-            this.checkBox2.UseVisualStyleBackColor = false;
+            this.lblStaffTeachersOrderBy.AutoSize = true;
+            this.lblStaffTeachersOrderBy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.lblStaffTeachersOrderBy.Location = new System.Drawing.Point(4, 280);
+            this.lblStaffTeachersOrderBy.Name = "lblStaffTeachersOrderBy";
+            this.lblStaffTeachersOrderBy.Size = new System.Drawing.Size(66, 18);
+            this.lblStaffTeachersOrderBy.TabIndex = 12;
+            this.lblStaffTeachersOrderBy.Text = "Order by:";
             // 
-            // label7
+            // cbxStaffTeachersOrderBy
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
-            this.label7.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(42)))), ((int)(((byte)(110)))));
-            this.label7.Location = new System.Drawing.Point(38, 216);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(48, 23);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Sort:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
-            this.label8.Location = new System.Drawing.Point(4, 250);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(66, 18);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "Order by:";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.BackColor = System.Drawing.Color.White;
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cbxStaffTeachersOrderBy.BackColor = System.Drawing.Color.White;
+            this.cbxStaffTeachersOrderBy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxStaffTeachersOrderBy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbxStaffTeachersOrderBy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
+            this.cbxStaffTeachersOrderBy.FormattingEnabled = true;
+            this.cbxStaffTeachersOrderBy.Items.AddRange(new object[] {
             "All",
             "ID",
             "First Name",
             "Last Name",
             "Grade"});
-            this.comboBox3.Location = new System.Drawing.Point(5, 270);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(115, 26);
-            this.comboBox3.TabIndex = 6;
+            this.cbxStaffTeachersOrderBy.Location = new System.Drawing.Point(6, 301);
+            this.cbxStaffTeachersOrderBy.Name = "cbxStaffTeachersOrderBy";
+            this.cbxStaffTeachersOrderBy.Size = new System.Drawing.Size(183, 26);
+            this.cbxStaffTeachersOrderBy.TabIndex = 6;
             // 
-            // label9
+            // lblStaffTeachersOrderOrder
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
-            this.label9.Location = new System.Drawing.Point(4, 305);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(48, 18);
-            this.label9.TabIndex = 13;
-            this.label9.Text = "Order:";
+            this.lblStaffTeachersOrderOrder.AutoSize = true;
+            this.lblStaffTeachersOrderOrder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.lblStaffTeachersOrderOrder.Location = new System.Drawing.Point(4, 335);
+            this.lblStaffTeachersOrderOrder.Name = "lblStaffTeachersOrderOrder";
+            this.lblStaffTeachersOrderOrder.Size = new System.Drawing.Size(48, 18);
+            this.lblStaffTeachersOrderOrder.TabIndex = 13;
+            this.lblStaffTeachersOrderOrder.Text = "Order:";
             // 
-            // comboBox4
+            // cbxStaffTeachersOrderOrder
             // 
-            this.comboBox4.BackColor = System.Drawing.Color.White;
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.cbxStaffTeachersOrderOrder.BackColor = System.Drawing.Color.White;
+            this.cbxStaffTeachersOrderOrder.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxStaffTeachersOrderOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbxStaffTeachersOrderOrder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
+            this.cbxStaffTeachersOrderOrder.FormattingEnabled = true;
+            this.cbxStaffTeachersOrderOrder.Items.AddRange(new object[] {
             "Ascending",
             "Descending"});
-            this.comboBox4.Location = new System.Drawing.Point(5, 325);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(115, 26);
-            this.comboBox4.TabIndex = 7;
+            this.cbxStaffTeachersOrderOrder.Location = new System.Drawing.Point(6, 356);
+            this.cbxStaffTeachersOrderOrder.Name = "cbxStaffTeachersOrderOrder";
+            this.cbxStaffTeachersOrderOrder.Size = new System.Drawing.Size(183, 26);
+            this.cbxStaffTeachersOrderOrder.TabIndex = 7;
             // 
-            // pictureBox2
+            // pbStaffTeachersBackground
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
-            this.pictureBox2.Location = new System.Drawing.Point(1, 1);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(123, 403);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.pbStaffTeachersBackground.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.pbStaffTeachersBackground.Location = new System.Drawing.Point(1, 1);
+            this.pbStaffTeachersBackground.Name = "pbStaffTeachersBackground";
+            this.pbStaffTeachersBackground.Size = new System.Drawing.Size(193, 403);
+            this.pbStaffTeachersBackground.TabIndex = 0;
+            this.pbStaffTeachersBackground.TabStop = false;
             // 
-            // button3
+            // btnStaffAdd
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(5, 465);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(125, 30);
-            this.button3.TabIndex = 0;
-            this.button3.TabStop = false;
-            this.button3.Text = "Add";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnStaffAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
+            this.btnStaffAdd.FlatAppearance.BorderSize = 0;
+            this.btnStaffAdd.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
+            this.btnStaffAdd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
+            this.btnStaffAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStaffAdd.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStaffAdd.ForeColor = System.Drawing.Color.White;
+            this.btnStaffAdd.Location = new System.Drawing.Point(5, 465);
+            this.btnStaffAdd.Name = "btnStaffAdd";
+            this.btnStaffAdd.Size = new System.Drawing.Size(125, 30);
+            this.btnStaffAdd.TabIndex = 0;
+            this.btnStaffAdd.TabStop = false;
+            this.btnStaffAdd.Text = "Add";
+            this.btnStaffAdd.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnStaffMore
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(135, 465);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(125, 30);
-            this.button4.TabIndex = 0;
-            this.button4.TabStop = false;
-            this.button4.Text = "More Info";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnStaffMore.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
+            this.btnStaffMore.FlatAppearance.BorderSize = 0;
+            this.btnStaffMore.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
+            this.btnStaffMore.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
+            this.btnStaffMore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStaffMore.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStaffMore.ForeColor = System.Drawing.Color.White;
+            this.btnStaffMore.Location = new System.Drawing.Point(135, 465);
+            this.btnStaffMore.Name = "btnStaffMore";
+            this.btnStaffMore.Size = new System.Drawing.Size(125, 30);
+            this.btnStaffMore.TabIndex = 0;
+            this.btnStaffMore.TabStop = false;
+            this.btnStaffMore.Text = "More Info";
+            this.btnStaffMore.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnStaffRemove
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(265, 465);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(125, 30);
-            this.button5.TabIndex = 0;
-            this.button5.TabStop = false;
-            this.button5.Text = "Remove";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnStaffRemove.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
+            this.btnStaffRemove.FlatAppearance.BorderSize = 0;
+            this.btnStaffRemove.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
+            this.btnStaffRemove.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
+            this.btnStaffRemove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStaffRemove.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStaffRemove.ForeColor = System.Drawing.Color.White;
+            this.btnStaffRemove.Location = new System.Drawing.Point(265, 465);
+            this.btnStaffRemove.Name = "btnStaffRemove";
+            this.btnStaffRemove.Size = new System.Drawing.Size(125, 30);
+            this.btnStaffRemove.TabIndex = 0;
+            this.btnStaffRemove.TabStop = false;
+            this.btnStaffRemove.Text = "Remove";
+            this.btnStaffRemove.UseVisualStyleBackColor = false;
+            // 
+            // btnStaffOther
+            // 
+            this.btnStaffOther.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
+            this.btnStaffOther.FlatAppearance.BorderSize = 0;
+            this.btnStaffOther.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
+            this.btnStaffOther.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
+            this.btnStaffOther.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStaffOther.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStaffOther.ForeColor = System.Drawing.Color.White;
+            this.btnStaffOther.Location = new System.Drawing.Point(750, 465);
+            this.btnStaffOther.Name = "btnStaffOther";
+            this.btnStaffOther.Size = new System.Drawing.Size(95, 30);
+            this.btnStaffOther.TabIndex = 17;
+            this.btnStaffOther.TabStop = false;
+            this.btnStaffOther.Text = "Other";
+            this.btnStaffOther.UseVisualStyleBackColor = false;
+            this.btnStaffOther.Click += new System.EventHandler(this.btnStaffOther_Click);
+            // 
+            // btnStaffTeachers
+            // 
+            this.btnStaffTeachers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(255)))));
+            this.btnStaffTeachers.Enabled = false;
+            this.btnStaffTeachers.FlatAppearance.BorderSize = 0;
+            this.btnStaffTeachers.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(98)))), ((int)(((byte)(198)))));
+            this.btnStaffTeachers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
+            this.btnStaffTeachers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStaffTeachers.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStaffTeachers.ForeColor = System.Drawing.Color.White;
+            this.btnStaffTeachers.Location = new System.Drawing.Point(650, 465);
+            this.btnStaffTeachers.Name = "btnStaffTeachers";
+            this.btnStaffTeachers.Size = new System.Drawing.Size(95, 30);
+            this.btnStaffTeachers.TabIndex = 18;
+            this.btnStaffTeachers.TabStop = false;
+            this.btnStaffTeachers.Text = "Teachers";
+            this.btnStaffTeachers.UseVisualStyleBackColor = false;
+            this.btnStaffTeachers.Click += new System.EventHandler(this.btnStaffTeachers_Click);
+            // 
+            // pbStaffTeachersGradeOutline
+            // 
+            this.pbStaffTeachersGradeOutline.Location = new System.Drawing.Point(5, 65);
+            this.pbStaffTeachersGradeOutline.Name = "pbStaffTeachersGradeOutline";
+            this.pbStaffTeachersGradeOutline.Size = new System.Drawing.Size(185, 28);
+            this.pbStaffTeachersGradeOutline.TabIndex = 14;
+            this.pbStaffTeachersGradeOutline.TabStop = false;
+            // 
+            // pbStaffTeachersQualificationsOutline
+            // 
+            this.pbStaffTeachersQualificationsOutline.Location = new System.Drawing.Point(5, 120);
+            this.pbStaffTeachersQualificationsOutline.Name = "pbStaffTeachersQualificationsOutline";
+            this.pbStaffTeachersQualificationsOutline.Size = new System.Drawing.Size(185, 28);
+            this.pbStaffTeachersQualificationsOutline.TabIndex = 15;
+            this.pbStaffTeachersQualificationsOutline.TabStop = false;
+            // 
+            // lblStaffTeachersClass
+            // 
+            this.lblStaffTeachersClass.AutoSize = true;
+            this.lblStaffTeachersClass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.lblStaffTeachersClass.Location = new System.Drawing.Point(4, 155);
+            this.lblStaffTeachersClass.Name = "lblStaffTeachersClass";
+            this.lblStaffTeachersClass.Size = new System.Drawing.Size(57, 18);
+            this.lblStaffTeachersClass.TabIndex = 16;
+            this.lblStaffTeachersClass.Text = "Classes:";
+            // 
+            // pbStaffTeachersClassOutline
+            // 
+            this.pbStaffTeachersClassOutline.Location = new System.Drawing.Point(5, 175);
+            this.pbStaffTeachersClassOutline.Name = "pbStaffTeachersClassOutline";
+            this.pbStaffTeachersClassOutline.Size = new System.Drawing.Size(185, 28);
+            this.pbStaffTeachersClassOutline.TabIndex = 17;
+            this.pbStaffTeachersClassOutline.TabStop = false;
+            // 
+            // cbxStaffTeachersClass
+            // 
+            this.cbxStaffTeachersClass.BackColor = System.Drawing.Color.White;
+            this.cbxStaffTeachersClass.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxStaffTeachersClass.Enabled = false;
+            this.cbxStaffTeachersClass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbxStaffTeachersClass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
+            this.cbxStaffTeachersClass.FormattingEnabled = true;
+            this.cbxStaffTeachersClass.Items.AddRange(new object[] {
+            "math",
+            "asd",
+            "dasd"});
+            this.cbxStaffTeachersClass.Location = new System.Drawing.Point(6, 176);
+            this.cbxStaffTeachersClass.Name = "cbxStaffTeachersClass";
+            this.cbxStaffTeachersClass.Size = new System.Drawing.Size(183, 26);
+            this.cbxStaffTeachersClass.TabIndex = 18;
+            // 
+            // pbStaffTeachersOrderByOutline
+            // 
+            this.pbStaffTeachersOrderByOutline.Location = new System.Drawing.Point(5, 300);
+            this.pbStaffTeachersOrderByOutline.Name = "pbStaffTeachersOrderByOutline";
+            this.pbStaffTeachersOrderByOutline.Size = new System.Drawing.Size(185, 28);
+            this.pbStaffTeachersOrderByOutline.TabIndex = 19;
+            this.pbStaffTeachersOrderByOutline.TabStop = false;
+            // 
+            // pbStaffTeachersOrderOrderOutline
+            // 
+            this.pbStaffTeachersOrderOrderOutline.Location = new System.Drawing.Point(5, 355);
+            this.pbStaffTeachersOrderOrderOutline.Name = "pbStaffTeachersOrderOrderOutline";
+            this.pbStaffTeachersOrderOrderOutline.Size = new System.Drawing.Size(185, 28);
+            this.pbStaffTeachersOrderOrderOutline.TabIndex = 20;
+            this.pbStaffTeachersOrderOrderOutline.TabStop = false;
+            // 
+            // pnlStaffOtherFilter
+            // 
+            this.pnlStaffOtherFilter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(222)))), ((int)(((byte)(228)))));
+            this.pnlStaffOtherFilter.Controls.Add(this.lblStaffOtherFilter);
+            this.pnlStaffOtherFilter.Controls.Add(this.lblStaffOtherType);
+            this.pnlStaffOtherFilter.Controls.Add(this.cbxStaffOtherType);
+            this.pnlStaffOtherFilter.Controls.Add(this.pbStaffOtherTypeOutline);
+            this.pnlStaffOtherFilter.Controls.Add(this.lblStaffOtherAbsent);
+            this.pnlStaffOtherFilter.Controls.Add(this.cbStaffOtherAbsent);
+            this.pnlStaffOtherFilter.Controls.Add(this.lblStaffOtherSort);
+            this.pnlStaffOtherFilter.Controls.Add(this.lblStaffOtherOrderBy);
+            this.pnlStaffOtherFilter.Controls.Add(this.cbxStaffOtherOrderBy);
+            this.pnlStaffOtherFilter.Controls.Add(this.pbStaffOtherOrderByOutline);
+            this.pnlStaffOtherFilter.Controls.Add(this.lblStaffOtherOrderOrder);
+            this.pnlStaffOtherFilter.Controls.Add(this.cbxStaffOtherOrderOrder);
+            this.pnlStaffOtherFilter.Controls.Add(this.pbStaffOtherOrderOrderOutline);
+            this.pnlStaffOtherFilter.Controls.Add(this.pbStaffOtherBackground);
+            this.pnlStaffOtherFilter.Location = new System.Drawing.Point(650, 55);
+            this.pnlStaffOtherFilter.Name = "pnlStaffOtherFilter";
+            this.pnlStaffOtherFilter.Size = new System.Drawing.Size(195, 405);
+            this.pnlStaffOtherFilter.TabIndex = 19;
+            this.pnlStaffOtherFilter.Visible = false;
+            // 
+            // lblStaffOtherFilter
+            // 
+            this.lblStaffOtherFilter.AutoSize = true;
+            this.lblStaffOtherFilter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.lblStaffOtherFilter.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStaffOtherFilter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(42)))), ((int)(((byte)(110)))));
+            this.lblStaffOtherFilter.Location = new System.Drawing.Point(64, 11);
+            this.lblStaffOtherFilter.Name = "lblStaffOtherFilter";
+            this.lblStaffOtherFilter.Size = new System.Drawing.Size(66, 23);
+            this.lblStaffOtherFilter.TabIndex = 1;
+            this.lblStaffOtherFilter.Text = "Filters:";
+            // 
+            // lblStaffOtherType
+            // 
+            this.lblStaffOtherType.AutoSize = true;
+            this.lblStaffOtherType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.lblStaffOtherType.Location = new System.Drawing.Point(4, 45);
+            this.lblStaffOtherType.Name = "lblStaffOtherType";
+            this.lblStaffOtherType.Size = new System.Drawing.Size(81, 18);
+            this.lblStaffOtherType.TabIndex = 3;
+            this.lblStaffOtherType.Text = "Occupation:";
+            // 
+            // cbxStaffOtherType
+            // 
+            this.cbxStaffOtherType.BackColor = System.Drawing.Color.White;
+            this.cbxStaffOtherType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxStaffOtherType.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbxStaffOtherType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
+            this.cbxStaffOtherType.FormattingEnabled = true;
+            this.cbxStaffOtherType.Items.AddRange(new object[] {
+            "All",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"});
+            this.cbxStaffOtherType.Location = new System.Drawing.Point(6, 66);
+            this.cbxStaffOtherType.Name = "cbxStaffOtherType";
+            this.cbxStaffOtherType.Size = new System.Drawing.Size(183, 26);
+            this.cbxStaffOtherType.TabIndex = 2;
+            // 
+            // pbStaffOtherTypeOutline
+            // 
+            this.pbStaffOtherTypeOutline.Location = new System.Drawing.Point(5, 65);
+            this.pbStaffOtherTypeOutline.Name = "pbStaffOtherTypeOutline";
+            this.pbStaffOtherTypeOutline.Size = new System.Drawing.Size(185, 28);
+            this.pbStaffOtherTypeOutline.TabIndex = 14;
+            this.pbStaffOtherTypeOutline.TabStop = false;
+            // 
+            // lblStaffOtherAbsent
+            // 
+            this.lblStaffOtherAbsent.AutoSize = true;
+            this.lblStaffOtherAbsent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.lblStaffOtherAbsent.Location = new System.Drawing.Point(4, 105);
+            this.lblStaffOtherAbsent.Name = "lblStaffOtherAbsent";
+            this.lblStaffOtherAbsent.Size = new System.Drawing.Size(56, 18);
+            this.lblStaffOtherAbsent.TabIndex = 8;
+            this.lblStaffOtherAbsent.Text = "Absent:";
+            // 
+            // cbStaffOtherAbsent
+            // 
+            this.cbStaffOtherAbsent.AutoSize = true;
+            this.cbStaffOtherAbsent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.cbStaffOtherAbsent.Location = new System.Drawing.Point(176, 107);
+            this.cbStaffOtherAbsent.Name = "cbStaffOtherAbsent";
+            this.cbStaffOtherAbsent.Size = new System.Drawing.Size(15, 14);
+            this.cbStaffOtherAbsent.TabIndex = 5;
+            this.cbStaffOtherAbsent.UseVisualStyleBackColor = false;
+            // 
+            // lblStaffOtherSort
+            // 
+            this.lblStaffOtherSort.AutoSize = true;
+            this.lblStaffOtherSort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.lblStaffOtherSort.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStaffOtherSort.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(42)))), ((int)(((byte)(110)))));
+            this.lblStaffOtherSort.Location = new System.Drawing.Point(73, 136);
+            this.lblStaffOtherSort.Name = "lblStaffOtherSort";
+            this.lblStaffOtherSort.Size = new System.Drawing.Size(48, 23);
+            this.lblStaffOtherSort.TabIndex = 10;
+            this.lblStaffOtherSort.Text = "Sort:";
+            // 
+            // lblStaffOtherOrderBy
+            // 
+            this.lblStaffOtherOrderBy.AutoSize = true;
+            this.lblStaffOtherOrderBy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.lblStaffOtherOrderBy.Location = new System.Drawing.Point(4, 170);
+            this.lblStaffOtherOrderBy.Name = "lblStaffOtherOrderBy";
+            this.lblStaffOtherOrderBy.Size = new System.Drawing.Size(66, 18);
+            this.lblStaffOtherOrderBy.TabIndex = 12;
+            this.lblStaffOtherOrderBy.Text = "Order by:";
+            // 
+            // cbxStaffOtherOrderBy
+            // 
+            this.cbxStaffOtherOrderBy.BackColor = System.Drawing.Color.White;
+            this.cbxStaffOtherOrderBy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxStaffOtherOrderBy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbxStaffOtherOrderBy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
+            this.cbxStaffOtherOrderBy.FormattingEnabled = true;
+            this.cbxStaffOtherOrderBy.Items.AddRange(new object[] {
+            "All",
+            "ID",
+            "First Name",
+            "Last Name",
+            "Grade"});
+            this.cbxStaffOtherOrderBy.Location = new System.Drawing.Point(6, 191);
+            this.cbxStaffOtherOrderBy.Name = "cbxStaffOtherOrderBy";
+            this.cbxStaffOtherOrderBy.Size = new System.Drawing.Size(183, 26);
+            this.cbxStaffOtherOrderBy.TabIndex = 6;
+            // 
+            // pbStaffOtherOrderByOutline
+            // 
+            this.pbStaffOtherOrderByOutline.Location = new System.Drawing.Point(5, 190);
+            this.pbStaffOtherOrderByOutline.Name = "pbStaffOtherOrderByOutline";
+            this.pbStaffOtherOrderByOutline.Size = new System.Drawing.Size(185, 28);
+            this.pbStaffOtherOrderByOutline.TabIndex = 19;
+            this.pbStaffOtherOrderByOutline.TabStop = false;
+            // 
+            // lblStaffOtherOrderOrder
+            // 
+            this.lblStaffOtherOrderOrder.AutoSize = true;
+            this.lblStaffOtherOrderOrder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.lblStaffOtherOrderOrder.Location = new System.Drawing.Point(4, 225);
+            this.lblStaffOtherOrderOrder.Name = "lblStaffOtherOrderOrder";
+            this.lblStaffOtherOrderOrder.Size = new System.Drawing.Size(48, 18);
+            this.lblStaffOtherOrderOrder.TabIndex = 13;
+            this.lblStaffOtherOrderOrder.Text = "Order:";
+            // 
+            // cbxStaffOtherOrderOrder
+            // 
+            this.cbxStaffOtherOrderOrder.BackColor = System.Drawing.Color.White;
+            this.cbxStaffOtherOrderOrder.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxStaffOtherOrderOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbxStaffOtherOrderOrder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
+            this.cbxStaffOtherOrderOrder.FormattingEnabled = true;
+            this.cbxStaffOtherOrderOrder.Items.AddRange(new object[] {
+            "Ascending",
+            "Descending"});
+            this.cbxStaffOtherOrderOrder.Location = new System.Drawing.Point(6, 246);
+            this.cbxStaffOtherOrderOrder.Name = "cbxStaffOtherOrderOrder";
+            this.cbxStaffOtherOrderOrder.Size = new System.Drawing.Size(183, 26);
+            this.cbxStaffOtherOrderOrder.TabIndex = 7;
+            // 
+            // pbStaffOtherOrderOrderOutline
+            // 
+            this.pbStaffOtherOrderOrderOutline.Location = new System.Drawing.Point(5, 245);
+            this.pbStaffOtherOrderOrderOutline.Name = "pbStaffOtherOrderOrderOutline";
+            this.pbStaffOtherOrderOrderOutline.Size = new System.Drawing.Size(185, 28);
+            this.pbStaffOtherOrderOrderOutline.TabIndex = 20;
+            this.pbStaffOtherOrderOrderOutline.TabStop = false;
+            // 
+            // pbStaffOtherBackground
+            // 
+            this.pbStaffOtherBackground.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
+            this.pbStaffOtherBackground.Location = new System.Drawing.Point(1, 1);
+            this.pbStaffOtherBackground.Name = "pbStaffOtherBackground";
+            this.pbStaffOtherBackground.Size = new System.Drawing.Size(193, 403);
+            this.pbStaffOtherBackground.TabIndex = 0;
+            this.pbStaffOtherBackground.TabStop = false;
             // 
             // frmXYZSchoolManager
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(850, 500);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlfrmMainmenu);
+            this.Controls.Add(this.pnlfrmStaff);
             this.Controls.Add(this.pnlfrmStudents);
             this.Controls.Add(this.pnlfrmAddstudentclass);
             this.Controls.Add(this.pnlfrmEditstudentclass);
             this.Controls.Add(this.pnlfrmEditstudent);
             this.Controls.Add(this.pnlfrmAddstudent);
-            this.Controls.Add(this.pnlfrmMainmenu);
             this.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(116)))), ((int)(((byte)(141)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -6408,13 +6719,24 @@ namespace XYZPrimarySchoolCMPG311GroupProject
             ((System.ComponentModel.ISupportInitialize)(this.pbEditstudentclassDFivePFiveOutline)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbEditstudentclassDFivePSixOutline)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbEditstudentclassDFiveBackground)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.pnlfrmStaff.ResumeLayout(false);
+            this.pnlfrmStaff.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffHeader)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgbStaffList)).EndInit();
+            this.pnlStaffTeachersFilter.ResumeLayout(false);
+            this.pnlStaffTeachersFilter.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffTeachersBackground)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffTeachersGradeOutline)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffTeachersQualificationsOutline)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffTeachersClassOutline)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffTeachersOrderByOutline)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffTeachersOrderOrderOutline)).EndInit();
+            this.pnlStaffOtherFilter.ResumeLayout(false);
+            this.pnlStaffOtherFilter.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffOtherTypeOutline)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffOtherOrderByOutline)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffOtherOrderOrderOutline)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbStaffOtherBackground)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -6840,32 +7162,54 @@ namespace XYZPrimarySchoolCMPG311GroupProject
         private System.Windows.Forms.PictureBox pbEditstudentclassCountROutline;
         private System.Windows.Forms.PictureBox pbEditstudentclassCountBackground;
         private System.Windows.Forms.Button btnEditstudentclassSave;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Panel pnlfrmStaff;
+        private System.Windows.Forms.Button btnStaffBack;
+        private System.Windows.Forms.Label lblStaffTitle;
+        private System.Windows.Forms.Button btnStaffSearch;
+        private System.Windows.Forms.TextBox txtStaffSearch;
+        private System.Windows.Forms.PictureBox pbStaffHeader;
+        private System.Windows.Forms.DataGridView dgbStaffList;
+        private System.Windows.Forms.Panel pnlStaffTeachersFilter;
+        private System.Windows.Forms.Label lblStaffTeachersFilters;
+        private System.Windows.Forms.Label lblStaffTeachersGrade;
+        private System.Windows.Forms.ComboBox cbxStaffTeachersGrade;
+        private System.Windows.Forms.Label lblStaffTeachersQualifications;
+        private System.Windows.Forms.ComboBox cbxStaffTeachersQualifications;
+        private System.Windows.Forms.Label lblStaffTeachersAbsent;
+        private System.Windows.Forms.CheckBox cbStaffTeachersAbsent;
+        private System.Windows.Forms.Label lblStaffTeachersSort;
+        private System.Windows.Forms.Label lblStaffTeachersOrderBy;
+        private System.Windows.Forms.ComboBox cbxStaffTeachersOrderBy;
+        private System.Windows.Forms.Label lblStaffTeachersOrderOrder;
+        private System.Windows.Forms.ComboBox cbxStaffTeachersOrderOrder;
+        private System.Windows.Forms.PictureBox pbStaffTeachersBackground;
+        private System.Windows.Forms.Button btnStaffAdd;
+        private System.Windows.Forms.Button btnStaffMore;
+        private System.Windows.Forms.Button btnStaffRemove;
+        private System.Windows.Forms.Button btnStaffTeachers;
+        private System.Windows.Forms.Button btnStaffOther;
+        private System.Windows.Forms.PictureBox pbStaffTeachersGradeOutline;
+        private System.Windows.Forms.PictureBox pbStaffTeachersQualificationsOutline;
+        private System.Windows.Forms.Label lblStaffTeachersClass;
+        private System.Windows.Forms.ComboBox cbxStaffTeachersClass;
+        private System.Windows.Forms.PictureBox pbStaffTeachersClassOutline;
+        private System.Windows.Forms.PictureBox pbStaffTeachersOrderByOutline;
+        private System.Windows.Forms.PictureBox pbStaffTeachersOrderOrderOutline;
+        private System.Windows.Forms.Panel pnlStaffOtherFilter;
+        private System.Windows.Forms.Label lblStaffOtherFilter;
+        private System.Windows.Forms.Label lblStaffOtherType;
+        private System.Windows.Forms.ComboBox cbxStaffOtherType;
+        private System.Windows.Forms.PictureBox pbStaffOtherTypeOutline;
+        private System.Windows.Forms.Label lblStaffOtherAbsent;
+        private System.Windows.Forms.CheckBox cbStaffOtherAbsent;
+        private System.Windows.Forms.Label lblStaffOtherSort;
+        private System.Windows.Forms.Label lblStaffOtherOrderBy;
+        private System.Windows.Forms.ComboBox cbxStaffOtherOrderBy;
+        private System.Windows.Forms.PictureBox pbStaffOtherOrderByOutline;
+        private System.Windows.Forms.Label lblStaffOtherOrderOrder;
+        private System.Windows.Forms.ComboBox cbxStaffOtherOrderOrder;
+        private System.Windows.Forms.PictureBox pbStaffOtherOrderOrderOutline;
+        private System.Windows.Forms.PictureBox pbStaffOtherBackground;
     }
 }
 

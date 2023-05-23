@@ -293,6 +293,36 @@ namespace XYZPrimarySchoolCMPG311GroupProject
         {
             MessageBox.Show("Are you sure you want to delete this student?", "Warning");
         }
+
+        private void btnStaffOther_Click(object sender, EventArgs e)
+        {
+            pnlStaffOtherFilter.Visible = true;
+            pnlStaffTeachersFilter.Visible = false;
+
+            btnStaffOther.Enabled = false;
+            btnStaffTeachers.Enabled = true;
+        }
+
+        private void btnStaffTeachers_Click(object sender, EventArgs e)
+        {
+            pnlStaffTeachersFilter.Visible = true;
+            pnlStaffOtherFilter.Visible = false;
+
+            btnStaffTeachers.Enabled = false;
+            btnStaffOther.Enabled = true;
+        }
+
+        private void btnMainmenuStaff_Click(object sender, EventArgs e)
+        {
+            pnlfrmStaff.Visible = true;
+            pnlfrmMainmenu.Visible = false;
+        }
+
+        private void btnStaffBack_Click(object sender, EventArgs e)
+        {
+            pnlfrmMainmenu.Visible = true;
+            pnlfrmStaff.Visible = false;
+        }
     }
 
     public class studentsTest
