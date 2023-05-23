@@ -42,18 +42,18 @@ namespace XYZPrimarySchoolCMPG311GroupProject
 
         private void addToTestLists()
         {
-            studentListTest.Add(new studentsTest { personID = 1, firstname = "john", lastname = "longwood", grade = 2, gender = "Male", parentFullname = "dan longwood", parentNumber  = "0824458748"});
-            studentListTest.Add(new studentsTest { personID = 2, firstname = "shane", lastname = "langehoofen", grade = 4, gender = "Male", parentFullname = "raymond langehoofen", parentNumber = "0765879854" });
-            studentListTest.Add(new studentsTest { personID = 3, firstname = "mary", lastname = "van heerden", grade = 6, gender = "Female", parentFullname = "susan heerden", parentNumber = "0745269875" });
-            studentListTest.Add(new studentsTest { personID = 4, firstname = "dean", lastname = "wentzel",grade = 5, gender = "Male", parentFullname = "elria wentzel", parentNumber = "0625487896" });
-            studentListTest.Add(new studentsTest { personID = 1, firstname = "john", lastname = "longwood", grade = 2, gender = "Male", parentFullname = "dan longwood", parentNumber = "0824458748" });
-            studentListTest.Add(new studentsTest { personID = 2, firstname = "shane", lastname = "langehoofen", grade = 4, gender = "Male", parentFullname = "raymond langehoofen", parentNumber = "0765879854" });
-            studentListTest.Add(new studentsTest { personID = 3, firstname = "mary", lastname = "van heerden", grade = 6, gender = "Female", parentFullname = "susan heerden", parentNumber = "0745269875" });
-            studentListTest.Add(new studentsTest { personID = 4, firstname = "dean", lastname = "wentzel", grade = 5, gender = "Male", parentFullname = "elria wentzel", parentNumber = "0625487896" });
-            studentListTest.Add(new studentsTest { personID = 1, firstname = "john", lastname = "longwood", grade = 2, gender = "Male", parentFullname = "dan longwood", parentNumber = "0824458748" });
-            studentListTest.Add(new studentsTest { personID = 2, firstname = "shane", lastname = "langehoofen", grade = 4, gender = "Male", parentFullname = "raymond langehoofen", parentNumber = "0765879854" });
-            studentListTest.Add(new studentsTest { personID = 3, firstname = "mary", lastname = "van heerden", grade = 6, gender = "Female", parentFullname = "susan heerden", parentNumber = "0745269875" });
-            studentListTest.Add(new studentsTest { personID = 4, firstname = "dean", lastname = "wentzel", grade = 5, gender = "Male", parentFullname = "elria wentzel", parentNumber = "0625487896" });
+            studentListTest.Add(new studentsTest { personID = 1, firstname = "john", lastname = "longwood", grade = 2, gender = "Male", parentFullname = "dan longwood", parentNumber  = "082 445 8748"});
+            studentListTest.Add(new studentsTest { personID = 2, firstname = "shane", lastname = "langehoofen", grade = 4, gender = "Male", parentFullname = "raymond langehoofen", parentNumber = "076 587 9854" });
+            studentListTest.Add(new studentsTest { personID = 3, firstname = "mary", lastname = "van heerden", grade = 6, gender = "Female", parentFullname = "susan heerden", parentNumber = "074 526 9875" });
+            studentListTest.Add(new studentsTest { personID = 4, firstname = "dean", lastname = "wentzel",grade = 5, gender = "Male", parentFullname = "elria wentzel", parentNumber = "062 548 7896" });
+            studentListTest.Add(new studentsTest { personID = 1, firstname = "john", lastname = "longwood", grade = 2, gender = "Male", parentFullname = "dan longwood", parentNumber = "082 445 8748" });
+            studentListTest.Add(new studentsTest { personID = 2, firstname = "shane", lastname = "langehoofen", grade = 4, gender = "Male", parentFullname = "raymond langehoofen", parentNumber = "076 5879 854" });
+            studentListTest.Add(new studentsTest { personID = 3, firstname = "mary", lastname = "van heerden", grade = 6, gender = "Female", parentFullname = "susan heerden", parentNumber = "074 526 9875" });
+            studentListTest.Add(new studentsTest { personID = 4, firstname = "dean", lastname = "wentzel", grade = 5, gender = "Male", parentFullname = "elria wentzel", parentNumber = "062 548 7896" });
+            studentListTest.Add(new studentsTest { personID = 1, firstname = "john", lastname = "longwood", grade = 2, gender = "Male", parentFullname = "dan longwood", parentNumber = "082 445 8748" });
+            studentListTest.Add(new studentsTest { personID = 2, firstname = "shane", lastname = "langehoofen", grade = 4, gender = "Male", parentFullname = "raymond langehoofen", parentNumber = "076 587 9854" });
+            studentListTest.Add(new studentsTest { personID = 3, firstname = "mary", lastname = "van heerden", grade = 6, gender = "Female", parentFullname = "susan heerden", parentNumber = "074 526 9875" });
+            studentListTest.Add(new studentsTest { personID = 4, firstname = "dean", lastname = "wentzel", grade = 5, gender = "Male", parentFullname = "elria wentzel", parentNumber = "062 548 7896" });
 
             addStudentClassTest.Add(new addStudentClasses { classDay = 1, classPeriod = 1,  classSubject = "HLAFR", classTeacher = "Mev Van Rensburg"});
             addStudentClassTest.Add(new addStudentClasses { classDay = 1, classPeriod = 1, classSubject = "HLAFR", classTeacher = "Mev Van Rensburg" });
@@ -263,6 +263,35 @@ namespace XYZPrimarySchoolCMPG311GroupProject
         {
             pnlfrmAddstudent.Visible = true;
             pnlfrmAddstudentclass.Visible = false;
+        }
+
+        private void btnStudentsMore_Click(object sender, EventArgs e)
+        {
+            pnlfrmEditstudent.Visible = true;
+            pnlfrmStudents.Visible = false;
+        }
+
+        private void btnEditstudentClasses_Click(object sender, EventArgs e)
+        {
+            pnlfrmEditstudentclass.Visible = true;
+            pnlfrmEditstudent.Visible = false;
+        }
+
+        private void btnEditstudentBack_Click(object sender, EventArgs e)
+        {
+            pnlfrmStudents.Visible = true;
+            pnlfrmEditstudent.Visible = false;
+        }
+
+        private void btnEditstudentclassBack_Click(object sender, EventArgs e)
+        {
+            pnlfrmEditstudent.Visible = true;
+            pnlfrmEditstudentclass.Visible = false;
+        }
+
+        private void btnStudentsRemove_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Are you sure you want to delete this student?", "Warning");
         }
     }
 
